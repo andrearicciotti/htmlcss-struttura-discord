@@ -118,7 +118,16 @@ header {
 /* SECTION-5 */
 .section-5 {
     width: 100%;
-    height: 25rem;
+    height: 28rem;
+    padding-top: .5rem;
+}
+
+.col {
+    width: 18%;
+}
+
+.col-pink {
+    flex-grow: 1;
 }
 
 /* FOOTER */
@@ -196,4 +205,12 @@ footer {
 
 .inner-green {
     background-color: green;
+}
+
+.col-pink {
+    background-color: pink;
+}
+
+.col-cyan {
+    background-color: cyan;
 }
