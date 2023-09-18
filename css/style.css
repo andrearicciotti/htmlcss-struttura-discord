@@ -60,7 +60,15 @@ header {
 /* HERO */
 .hero {
     width: 100%;
-    height: 20rem;
+    height: 22.5rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.heroflex {
+    width: 50%;
+    height: 90%;
+    margin: 0 auto;
 }
 
 /* SECTION-1, SECTION-3 */
@@ -125,6 +133,10 @@ div {
 
 .hero {
     background-color: blue;
+}
+
+.heroflex {
+    background-color: pink;
 }
 
 .section-2 {
