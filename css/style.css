@@ -134,8 +134,17 @@ header {
 footer {
     width: 100%;
     height: 85px;
+    padding-top: 1.5rem;
 }
 
+.footer-flex {
+    width: 70%;
+    height: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 
@@ -159,6 +168,10 @@ div {
 }
 
 .logo {
+    background-color: lightsalmon;
+}
+
+.logo-footer {
     background-color: lightsalmon;
 }
 
@@ -193,6 +206,7 @@ footer {
 
 .section-wrapper {
     border: 1px dashed black;
+    background-color: aquamarine;
 }
  
 .inner-pink {
@@ -213,4 +227,12 @@ footer {
 
 .col-cyan {
     background-color: cyan;
+}
+
+.bottone {
+    background-color: lightsalmon;
+}
+
+.footer-flex {
+    background-color: aquamarine;
 }
