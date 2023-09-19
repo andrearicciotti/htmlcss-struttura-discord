@@ -100,6 +100,7 @@ header {
 .section-2 {
     width: 100%;
     height: 25rem;
+    padding-top: 2.4rem;
 }
 
 /* SECTION-4 */
@@ -115,8 +116,8 @@ header {
     margin: 0 auto;
 }
 
-/* SECTION-5 */
-.section-5 {
+/* FOOTER */
+.footer-top {
     width: 100%;
     height: 28rem;
     padding-top: .5rem;
@@ -130,11 +131,15 @@ header {
     flex-grow: 1;
 }
 
-/* FOOTER */
 footer {
     width: 100%;
-    height: 85px;
     padding-top: 1.5rem;
+}
+
+.footer-bottom {
+    width: 100%;
+    height: 70px;
+    padding-top: 1rem;
 }
 
 .footer-flex {
@@ -195,12 +200,15 @@ div {
     background-color: lightgray;
 }
 
-.section-5 {
+.footer-top {
     background-color: rgb(36 39 42);
 }
 
 footer {
     background-color: rgb(36 39 42);
+}
+
+.footer-bottom {
     border-top: 1px solid white
 }
 
